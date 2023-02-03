@@ -25,7 +25,7 @@ def get_notebook_list(note_store, notebook_guid, number=10, offset=0):
     )
 
     # this determines which info you'll get for each note
-    return note_store.findNotesMetadata(_filter, offset, number, resultSpec);
+    return note_store.findNotesMetadata(_filter, offset, number, resultSpec)
 
 
 if __name__ == '__main__':
